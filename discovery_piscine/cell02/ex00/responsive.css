@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+}
+
+td {
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.first {
+    background-color: rgb(98, 236, 98);
+}
+
+.second {
+    background-color: rgb(251, 122, 142);
+}
