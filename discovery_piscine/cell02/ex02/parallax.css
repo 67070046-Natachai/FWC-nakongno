@@ -1,0 +1,27 @@
+.box1 {
+    background-image: url("https://www.it.kmitl.ac.th/_next/image?url=https%3A%2F%2Fs3.www.it.kmitl.co%2Fwwwitkmitl%2F%25E0%25B8%259B%25E0%25B8%25B2%25E0%25B8%2599%25E0%25B8%25A7%25E0%25B8%25B4%25E0%25B8%2597%25E0%25B8%25A2%25E0%25B9%258C-%25E0%25B8%2598%25E0%25B8%25B8%25E0%25B8%25A7%25E0%25B8%25B0%25E0%25B8%2599%25E0%25B8%25B8%25E0%25B8%2595%25E0%25B8%25B4-500x500.jpg&w=640&q=75");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqgOj3t6a0QhjccZnTa309N81PWQFkuw4UGDxA3jIlDg&s=10");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    height: 20vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    color: white;
+    font-size: 5vh;
+}
