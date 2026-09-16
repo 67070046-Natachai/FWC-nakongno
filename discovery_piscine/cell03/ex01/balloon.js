@@ -1,34 +1,43 @@
 let balloon = document.getElementById("balloon");
 let size = 200;
-let color = 0;
-let colors = ["red", "green", "blue"];
+let color = "red";
 
-balloon.onclick = function() {
+balloon.addEventListener("click", function () {
     size = size + 10;
-    color = color + 1;
-    if (color > 2) {
-        color = 0;
+    if (color == "red") {
+        color = "green";
     }
-    balloon.style.width = size + "px";
-    balloon.style.height = size + "px";
-    balloon.style.backgroundColor = colors[color];
+    else if (color == "green") {
+        color = "blue";
+    }
+    else {
+        color = "red";
+    }
+    
     if (size > 420) {
         size = 200;
-        color = 0;
-        balloon.style.width = size + "px";
-        balloon.style.height = size + "px";
-        balloon.style.backgroundColor = colors[color];
-    }
-};
-balloon.onmouseleave = function() {
-    if (size > 200) {
-        size = size - 5;
-    }
-    color = color - 1;
-    if (color < 0) {
-        color = 2;
+        color = "red";
     }
     balloon.style.width = size + "px";
     balloon.style.height = size + "px";
-    balloon.style.backgroundColor = colors[color];
-};
+    balloon.style.backgroundColor = color;
+});
+
+balloon.addEventListener("mouseleave", function () {
+    size = size - 5;
+    if (size < 200) {
+        size = 200;
+    }
+    if (color == "red") {
+        color = "blue";
+    }
+    else if (color == "blue") {
+        color = "green";
+    }
+    else {
+        color = "red";
+    }
+    balloon.style.width = size + "px";
+    balloon.style.height = size + "px";
+    balloon.style.backgroundColor = color;
+});
