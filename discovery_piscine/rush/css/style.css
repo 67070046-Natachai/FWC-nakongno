@@ -143,6 +143,8 @@ nav a:hover {
 
 .skills span:hover {
     background-color: #555;
+    padding: 15px 15px;
+    font-size: 3vh;
 }
 
 .contact {
