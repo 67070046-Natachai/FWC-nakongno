@@ -2,42 +2,6 @@
     transition: 0.3s;
 }
 
-body {
-    margin: 0;
-    background-color: #f8f4f4;
-    text-align: center;
-    font-family: 'Sarabun', sans-serif;
-}
-
-.home {
-    text-align: center;
-    padding-top: 150px;
-}
-
-.home h1 {
-    font-size: 50px;
-}
-
-.members {
-    margin-top: 40px;
-}
-
-.members a {
-    display: inline-block;
-    padding: 15px;
-    margin: 10px;
-    background-color: #3c3c3c;
-    color: white;
-    border-radius: 8px;
-    text-decoration: none;
-}
-
-.members a:hover {
-    background-color: #555;
-    transform: translateY(-5px);
-    font-size: 3vh;
-}
-
 nav {
     position: fixed;
     width: 100%;
