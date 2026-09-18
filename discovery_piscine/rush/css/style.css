@@ -2,6 +2,13 @@
     transition: 0.3s;
 }
 
+body {
+    margin: 0;
+    background-color: #f8f4f4;
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -150,25 +157,4 @@ nav a:hover {
     transform: translateY(-5px);
     font-size: 3vh;
     background-color: #dfdede;
-}
-
-@media (max-width: 600px) {
-
-    nav a {
-        margin: 8px;
-        font-size: 14px;
-    }
-
-    .about {
-        margin-top: 100px;
-    }
-
-    .showcase {
-        padding: 60px 10px;
-    }
-
-    .con {
-        flex-direction: column;
-        align-items: center;
-    }
 }
