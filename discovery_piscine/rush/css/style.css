@@ -12,7 +12,7 @@ body {
 nav {
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: 50px;
     background-color: #333;
     display: flex;
     justify-content: center;
@@ -23,7 +23,6 @@ nav {
 nav a {
     color: white;
     margin: 20px;
-    font-size: 18px;
     text-decoration: none;
 }
 
@@ -53,7 +52,7 @@ nav a:hover {
 .showcase {
     padding: 100px ;
     text-align: center;
-    background-color: #b9bdbb;
+    background-color: #d7d7d7;
 }
 
 .showcase h2 {
@@ -129,7 +128,7 @@ nav a:hover {
 }
 
 .con {
-    display: flex;
+    display: grid;
     justify-content: center;
     gap: 20px;
 }
@@ -159,3 +158,4 @@ nav a:hover {
     font-size: 3vh;
     background-color: #dfdede;
 }
+
