@@ -185,6 +185,7 @@ nav a:hover {
 .conbox:hover {
     transform: translateY(-5px);
     font-size: 3vh;
+    background-color: #dfdede;
 }
 
 @media (max-width: 600px) {
